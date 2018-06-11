@@ -2,6 +2,6 @@ no = input("Enter a no. ")
 no = int(no)
 
 if no % 2 :
-    print("Odd")
+    print("Given {} is Odd".format(no))
 else :
-    print("Even")
+    print("Given {} is Even".format(no))
