@@ -1,0 +1,6 @@
+n = list(map(int,input().split()))
+k = list(map(int,input().split()))
+r = list(map(lambda x,y:x+y,n,k))
+print("List1 = ",*n)
+print("List2 = ",*k)
+print("RList = ",*r)

@@ -1,0 +1,2 @@
+class One:
+    pass

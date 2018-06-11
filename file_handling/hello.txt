@@ -1,0 +1,7 @@
+Hello World WElcome to python
+	This is super easy
+let's see
+
+now read this file in read mode
+		
+		hello world
