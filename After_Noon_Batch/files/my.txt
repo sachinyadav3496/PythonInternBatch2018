@@ -1,0 +1,5 @@
+Hi this is file handling in python.
+This is so easy.
+
+      Hi i am a new line into old file.
+Python is awesome some

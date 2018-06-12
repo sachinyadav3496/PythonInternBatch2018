@@ -1,0 +1,7 @@
+f  = open('my.txt',)
+data = f.read()
+f.close()
+print("Here is your data ")
+print()
+print(data)
+print()

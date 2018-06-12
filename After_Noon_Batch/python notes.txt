@@ -1,0 +1,691 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\sachin yadav>
+PS C:\Users\sachin yadav> cd C:\internbatch\
+PS C:\internbatch> ls
+
+
+    Directory: C:\internbatch
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         6/6/2018   1:33 PM                .ipynb_checkpoints
+-a----         6/6/2018   1:30 PM           4507 .bank.py.un~
+-a----        5/29/2018   1:00 PM           1427 .hello.py.un~
+-a----         6/1/2018   1:40 PM           5083 .if_else.py.un~
+-a----        5/28/2018   2:14 PM            523 .pattern.py.un~
+-a----         6/4/2018   2:13 PM           4532 .prime.py.un~
+-a----         6/6/2018   1:30 PM           4594 bank.py
+-a----         6/5/2018   3:57 PM           1217 bank.py~
+-a----        5/29/2018   3:30 PM           3646 Basic+Data+Types+.py
+-a----        5/29/2018   3:28 PM           3646 Basic+Data+Types+.py~
+-a----         6/5/2018   9:00 AM          25141 Basic_Data_Types1
+                                                 .ipynb
+-a----        5/31/2018   4:01 PM           2861 Control
+                                                 Statements.ipynb
+-a----         6/6/2018   3:01 PM          66693 FileHandling.ipynb
+-a----        5/28/2018   2:58 PM           3469 first_class.ipynb
+-a----         6/4/2018   4:16 PM          15005 General_Problems.ipynb
+-a----         6/6/2018   2:23 PM              0 hello
+-a----        5/29/2018   1:00 PM            117 hello.py
+-a----         6/1/2018   1:40 PM            170 if_else.py
+-a----         6/1/2018   1:33 PM            170 if_else.py~
+-a----         6/6/2018   1:33 PM          39882 Loop2.ipynb
+-a----         6/1/2018   4:22 PM           9459 Loops_in_Python.ipynb
+-a----         6/1/2018   2:26 PM          13771 Operators_IN_Python.ipy
+                                                 nb
+-a----        5/28/2018   2:14 PM            101 pattern.py
+-a----         6/4/2018   2:13 PM            658 prime.py
+-a----         6/4/2018   2:11 PM            523 prime.py~
+
+
+PS C:\internbatch> ls
+
+
+    Directory: C:\internbatch
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         6/6/2018   1:33 PM                .ipynb_checkpoints
+-a----         6/6/2018   1:30 PM           4507 .bank.py.un~
+-a----        5/29/2018   1:00 PM           1427 .hello.py.un~
+-a----         6/1/2018   1:40 PM           5083 .if_else.py.un~
+-a----        5/28/2018   2:14 PM            523 .pattern.py.un~
+-a----         6/4/2018   2:13 PM           4532 .prime.py.un~
+-a----         6/6/2018   1:30 PM           4594 bank.py
+-a----         6/5/2018   3:57 PM           1217 bank.py~
+-a----        5/29/2018   3:30 PM           3646 Basic+Data+Types+.py
+-a----        5/29/2018   3:28 PM           3646 Basic+Data+Types+.py~
+-a----         6/5/2018   9:00 AM          25141 Basic_Data_Types1
+                                                 .ipynb
+-a----        5/31/2018   4:01 PM           2861 Control
+                                                 Statements.ipynb
+-a----         6/6/2018   3:01 PM          66693 FileHandling.ipynb
+-a----        5/28/2018   2:58 PM           3469 first_class.ipynb
+-a----         6/4/2018   4:16 PM          15005 General_Problems.ipynb
+-a----         6/6/2018   2:23 PM              0 hello
+-a----        5/29/2018   1:00 PM            117 hello.py
+-a----         6/1/2018   1:40 PM            170 if_else.py
+-a----         6/1/2018   1:33 PM            170 if_else.py~
+-a----         6/6/2018   1:33 PM          39882 Loop2.ipynb
+-a----         6/1/2018   4:22 PM           9459 Loops_in_Python.ipynb
+-a----         6/1/2018   2:26 PM          13771 Operators_IN_Python.ipy
+                                                 nb
+-a----        5/28/2018   2:14 PM            101 pattern.py
+-a----         6/4/2018   2:13 PM            658 prime.py
+-a----         6/4/2018   2:11 PM            523 prime.py~
+
+
+PS C:\internbatch> mkdir kuch_bhi
+
+
+    Directory: C:\internbatch
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         6/6/2018   3:36 PM                kuch_bhi
+
+
+PS C:\internbatch> cd .\kuch_bhi\
+PS C:\internbatch\kuch_bhi> ls
+PS C:\internbatch\kuch_bhi> python
+Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45)
+[MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open('hello.txt',)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'hello.txt'
+>>> f = open('hello.txt','w')
+>>> f.close()
+>>> exit9)
+  File "<stdin>", line 1
+    exit9)
+         ^
+SyntaxError: invalid syntax
+>>> exit()
+PS C:\internbatch\kuch_bhi> ls
+
+
+    Directory: C:\internbatch\kuch_bhi
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----         6/6/2018   3:37 PM              0 hello.txt
+
+
+PS C:\internbatch\kuch_bhi> vim first.py
+PS C:\internbatch\kuch_bhi> python .\first.py
+Enter file to overwrite : hello.txt
+
+Write :wq to exit and save file
+
+
+hello
+Traceback (most recent call last):
+  File ".\first.py", line 13, in <module>
+    f.wirte('\n')
+AttributeError: '_io.TextIOWrapper' object has no attribute 'wirte'
+PS C:\internbatch\kuch_bhi> vim first.py
+PS C:\internbatch\kuch_bhi> python .\first.py
+Enter file to overwrite : hello.txt
+
+Write :wq to exit and save file
+
+
+hello
+        file is so easy, you need to practise it
+
+
+                we writing in a file.
+hello
+hi
+                bye bye
+
+       :WQ
+
+
+Thanks
+
+Traceback (most recent call last):
+  File ".\first.py", line 12, in <module>
+    f.write(data)
+ValueError: I/O operation on closed file.
+PS C:\internbatch\kuch_bhi> vim first.py
+PS C:\internbatch\kuch_bhi> vim .\hello.txt
+PS C:\internbatch\kuch_bhi> python
+Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45)
+[MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open('hello.txt','w')
+>>> f.close()
+>>> exit()
+PS C:\internbatch\kuch_bhi> vim .\hello.txt
+PS C:\internbatch\kuch_bhi> python
+Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45)
+[MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open('hello.txt','r+')
+>>> d = f.read()
+>>> print(d)
+
+>>> f.writeable()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'writeable'
+>>> f.writable()
+True
+>>> f.write('hello world\n')
+12
+>>> d = f.readline()
+>>> print(d)
+
+>>> f.readable()
+True
+>>> f.seek(0)
+0
+>>> d = f.readline()
+>>> print(d)
+hello world
+
+>>> f.write('\t\t\tAre you getting')
+18
+>>> d = f.redline()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'redline'
+>>> d = f.readline()
+>>> d
+''
+>>> f.seek(0)
+0
+>>> f.read()
+'hello world\n\t\t\tAre you getting'
+>>> f.write('\n')
+1
+>>> for var in range(30):
+...     s = '\nHello world welcome to file handling'
+...     f.write(s)
+...
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+>>> f.close()
+>>> exit()
+PS C:\internbatch\kuch_bhi> vim .\hello.txt
+PS C:\internbatch\kuch_bhi> python
+Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45)
+[MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open('hello.txt','r+')
+>>> d = f.read()
+>>> d
+'hello world\n\t\t\tAre you getting\nHello world welcome to file handling
+\nHello world welcome to file handling\nHello world welcome to file handl
+ing\nHello world welcome to file handling\nHello world welcome to file ha
+ndling\nHello world welcome to file handling\nHello world welcome to file
+ handling\nHello world welcome to file handling\nHello world welcome to f
+ile handling\nHello world welcome to file handling\nHello world welcome t
+o file handling\nHello world welcome to file handling\nHello world welcom
+e to file handling\nHello world welcome to file handling\nHello world wel
+come to file handling\nHello world welcome to file handling\nHello world
+welcome to file handling\nHello world welcome to file handling\nHello wor
+ld welcome to file handling\nHello world welcome to file handling\nHello
+world welcome to file handling\nHello world welcome to file handling\nHel
+lo world welcome to file handling\nHello world welcome to file handling\n
+Hello world welcome to file handling\nHello world welcome to file handlin
+g\nHello world welcome to file handling\nHello world welcome to file hand
+ling\nHello world welcome to file handling\nHello world welcome to file h
+andling\n'
+>>> f.seek(0)
+0
+>>> d = f.readline()
+>>> d
+'hello world\n'
+>>> d = f.readline()
+>>> d
+'\t\t\tAre you getting\n'
+>>> f.seek(0)
+0
+>>> s = 'alksdfj'
+>>> dir(s)
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc
+__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__',
+ '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__',
+ '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__
+', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__r
+mul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capi
+talize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs
+', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isdeci
+mal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', '
+isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'make
+trans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition',
+ 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapc
+ase', 'title', 'translate', 'upper', 'zfill']
+>>> f.count('k')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'count'
+>>> s.count('k')
+1
+>>> f.seek(0)
+0
+>>> s = f.read()
+>>> s
+'hello world\n\t\t\tAre you getting\nHello world welcome to file handling
+\nHello world welcome to file handling\nHello world welcome to file handl
+ing\nHello world welcome to file handling\nHello world welcome to file ha
+ndling\nHello world welcome to file handling\nHello world welcome to file
+ handling\nHello world welcome to file handling\nHello world welcome to f
+ile handling\nHello world welcome to file handling\nHello world welcome t
+o file handling\nHello world welcome to file handling\nHello world welcom
+e to file handling\nHello world welcome to file handling\nHello world wel
+come to file handling\nHello world welcome to file handling\nHello world
+welcome to file handling\nHello world welcome to file handling\nHello wor
+ld welcome to file handling\nHello world welcome to file handling\nHello
+world welcome to file handling\nHello world welcome to file handling\nHel
+lo world welcome to file handling\nHello world welcome to file handling\n
+Hello world welcome to file handling\nHello world welcome to file handlin
+g\nHello world welcome to file handling\nHello world welcome to file hand
+ling\nHello world welcome to file handling\nHello world welcome to file h
+andling\n'
+>>> no_lines = s.count('\n')
+>>> no_lines
+32
+>>> no_lines = s.count(' ')
+>>> no_lines
+153
+>>> s
+'hello world\n\t\t\tAre you getting\nHello world welcome to file handling
+\nHello world welcome to file handling\nHello world welcome to file handl
+ing\nHello world welcome to file handling\nHello world welcome to file ha
+ndling\nHello world welcome to file handling\nHello world welcome to file
+ handling\nHello world welcome to file handling\nHello world welcome to f
+ile handling\nHello world welcome to file handling\nHello world welcome t
+o file handling\nHello world welcome to file handling\nHello world welcom
+e to file handling\nHello world welcome to file handling\nHello world wel
+come to file handling\nHello world welcome to file handling\nHello world
+welcome to file handling\nHello world welcome to file handling\nHello wor
+ld welcome to file handling\nHello world welcome to file handling\nHello
+world welcome to file handling\nHello world welcome to file handling\nHel
+lo world welcome to file handling\nHello world welcome to file handling\n
+Hello world welcome to file handling\nHello world welcome to file handlin
+g\nHello world welcome to file handling\nHello world welcome to file hand
+ling\nHello world welcome to file handling\nHello world welcome to file h
+andling\n'
+>>> k = s.split()
+>>> k
+['hello', 'world', 'Are', 'you', 'getting', 'Hello', 'world', 'welcome',
+'to', 'file', 'handling', 'Hello', 'world', 'welcome', 'to', 'file', 'han
+dling', 'Hello', 'world', 'welcome', 'to', 'file', 'handling', 'Hello', '
+world', 'welcome', 'to', 'file', 'handling', 'Hello', 'world', 'welcome',
+ 'to', 'file', 'handling', 'Hello', 'world', 'welcome', 'to', 'file', 'ha
+ndling', 'Hello', 'world', 'welcome', 'to', 'file', 'handling', 'Hello',
+'world', 'welcome', 'to', 'file', 'handling', 'Hello', 'world', 'welcome'
+, 'to', 'file', 'handling', 'Hello', 'world', 'welcome', 'to', 'file', 'h
+andling', 'Hello', 'world', 'welcome', 'to', 'file', 'handling', 'Hello',
+ 'world', 'welcome', 'to', 'file', 'handling', 'Hello', 'world', 'welcome
+', 'to', 'file', 'handling', 'Hello', 'world', 'welcome', 'to', 'file', '
+handling', 'Hello', 'world', 'welcome', 'to', 'file', 'handling', 'Hello'
+, 'world', 'welcome', 'to', 'file', 'handling', 'Hello', 'world', 'welcom
+e', 'to', 'file', 'handling', 'Hello', 'world', 'welcome', 'to', 'file',
+'handling', 'Hello', 'world', 'welcome', 'to', 'file', 'handling', 'Hello
+', 'world', 'welcome', 'to', 'file', 'handling', 'Hello', 'world', 'welco
+me', 'to', 'file', 'handling', 'Hello', 'world', 'welcome', 'to', 'file',
+ 'handling', 'Hello', 'world', 'welcome', 'to', 'file', 'handling', 'Hell
+o', 'world', 'welcome', 'to', 'file', 'handling', 'Hello', 'world', 'welc
+ome', 'to', 'file', 'handling', 'Hello', 'world', 'welcome', 'to', 'file'
+, 'handling', 'Hello', 'world', 'welcome', 'to', 'file', 'handling', 'Hel
+lo', 'world', 'welcome', 'to', 'file', 'handling', 'Hello', 'world', 'wel
+come', 'to', 'file', 'handling', 'Hello', 'world', 'welcome', 'to', 'file
+', 'handling']
+>>> len(k)
+185
+>>> s
+'hello world\n\t\t\tAre you getting\nHello world welcome to file handling
+\nHello world welcome to file handling\nHello world welcome to file handl
+ing\nHello world welcome to file handling\nHello world welcome to file ha
+ndling\nHello world welcome to file handling\nHello world welcome to file
+ handling\nHello world welcome to file handling\nHello world welcome to f
+ile handling\nHello world welcome to file handling\nHello world welcome t
+o file handling\nHello world welcome to file handling\nHello world welcom
+e to file handling\nHello world welcome to file handling\nHello world wel
+come to file handling\nHello world welcome to file handling\nHello world
+welcome to file handling\nHello world welcome to file handling\nHello wor
+ld welcome to file handling\nHello world welcome to file handling\nHello
+world welcome to file handling\nHello world welcome to file handling\nHel
+lo world welcome to file handling\nHello world welcome to file handling\n
+Hello world welcome to file handling\nHello world welcome to file handlin
+g\nHello world welcome to file handling\nHello world welcome to file hand
+ling\nHello world welcome to file handling\nHello world welcome to file h
+andling\n'
+>>> for char in s :
+...
+KeyboardInterrupt
+>>> c = 0
+>>> for var in s:
+...     c = c + 1
+...
+>>> c
+1141
+>>> f.seek(0)
+0
+>>> f.read()
+'hello world\n\t\t\tAre you getting\nHello world welcome to file handling
+\nHello world welcome to file handling\nHello world welcome to file handl
+ing\nHello world welcome to file handling\nHello world welcome to file ha
+ndling\nHello world welcome to file handling\nHello world welcome to file
+ handling\nHello world welcome to file handling\nHello world welcome to f
+ile handling\nHello world welcome to file handling\nHello world welcome t
+o file handling\nHello world welcome to file handling\nHello world welcom
+e to file handling\nHello world welcome to file handling\nHello world wel
+come to file handling\nHello world welcome to file handling\nHello world
+welcome to file handling\nHello world welcome to file handling\nHello wor
+ld welcome to file handling\nHello world welcome to file handling\nHello
+world welcome to file handling\nHello world welcome to file handling\nHel
+lo world welcome to file handling\nHello world welcome to file handling\n
+Hello world welcome to file handling\nHello world welcome to file handlin
+g\nHello world welcome to file handling\nHello world welcome to file hand
+ling\nHello world welcome to file handling\nHello world welcome to file h
+andling\n'
+>>> f.tell()
+1173
+>>> ^Z
+
+PS C:\internbatch\kuch_bhi> vim .\hello.txt
+PS C:\internbatch\kuch_bhi> python
+Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45)
+[MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open('hello.txt','r+')
+>>> for var in range(5) :
+...     f.readline()
+...
+'Hello world welcome to file handling\n'
+'Hello world welcome to file handling\n'
+'Hello world welcome to file handling\n'
+'Hello world welcome to file handling\n'
+'Hello world welcome to file handling\n'
+>>> f.tell()
+190
+>>> f.write('Welcome to Python Programming Language')
+38
+>>> f.seek(0)
+0
+>>> print(f.read())
+Hello world welcome to file handling
+Hello world welcome to file handling
+Hello world welcome to file handling
+Hello world welcome to file handling
+Hello world welcome to file handling
+Hello world welcome to file handling
+Hello world welcome to file handling
+Hello world welcome to file handling
+Hello world welcome to file handling
+Hello world welcome to file handling
+Welcome to Python Programming Language
+>>> f.close()
+>>> exit()
+PS C:\internbatch\kuch_bhi> vim .\hello.txt
+PS C:\internbatch\kuch_bhi> python
+Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45)
+[MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open('hello.txt')
+>>> s = f.read()
+>>> f.close()
+>>> s
+'Hello world welcome to file handling\nHello world welcome to file handli
+n\nHello world welcome to file handling\nHello world welcome to file hand
+ling\nHello world welcome to file handling\nHello world welcome to file h
+andling\nHello world welcome to file handling\nHello world welcome to fil
+e handling\nHello world welcome to file handling\nHello world welcome to
+file handling\n'
+>>> mylist = s.split('\n')
+>>> mylist
+['Hello world welcome to file handling', 'Hello world welcome to file han
+dlin', 'Hello world welcome to file handling', 'Hello world welcome to fi
+le handling', 'Hello world welcome to file handling', 'Hello world welcom
+e to file handling', 'Hello world welcome to file handling', 'Hello world
+ welcome to file handling', 'Hello world welcome to file handling', 'Hell
+o world welcome to file handling', '']
+>>> len(mylist)
+11
+>>> mylist.insert(5,'Welcome to python Programming language')
+>>> mylist
+['Hello world welcome to file handling', 'Hello world welcome to file han
+dlin', 'Hello world welcome to file handling', 'Hello world welcome to fi
+le handling', 'Hello world welcome to file handling', 'Welcome to python
+Programming language', 'Hello world welcome to file handling', 'Hello wor
+ld welcome to file handling', 'Hello world welcome to file handling', 'He
+llo world welcome to file handling', 'Hello world welcome to file handlin
+g', '']
+>>> f = open('hello.txt','w')
+>>> f.write(l)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'l' is not defined
+>>> f.write(mylist)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: write() argument must be str, not list
+>>> s = '\n'.join(mylist)
+>>> s
+'Hello world welcome to file handling\nHello world welcome to file handli
+n\nHello world welcome to file handling\nHello world welcome to file hand
+ling\nHello world welcome to file handling\nWelcome to python Programming
+ language\nHello world welcome to file handling\nHello world welcome to f
+ile handling\nHello world welcome to file handling\nHello world welcome t
+o file handling\nHello world welcome to file handling\n'
+>>> f.write(s)
+408
+>>> f.close()
+>>> exit()
+PS C:\internbatch\kuch_bhi> vim .\hello.txt
+PS C:\internbatch\kuch_bhi> python
+Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45)
+[MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open('hello.txt')
+>>> s = f.read()
+>>> f.close()
+>>> c = 1
+>>> s = s.split('\n')
+>>> s
+['Hello world welcome to file handling', 'Hello world welcome to file han
+dlin', 'Hello world welcome to file handling', 'Hello world welcome to fi
+le handling', 'Hello world welcome to file handling', 'Welcome to python
+Programming language', 'Hello world welcome to file handling', 'Hello wor
+ld welcome to file handling', 'Hello world welcome to file handling', 'He
+llo world welcome to file handling', 'Hello world welcome to file handlin
+g', '']
+>>> len(s)
+12
+>>> for var in range(1,13) :
+...
+KeyboardInterrupt
+>>> for var in s:
+...     s = str(c)+'. '+s
+...     c = c +1
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+TypeError: must be str, not list
+>>> for var in s:
+...     var = str(c)+'. '+var
+KeyboardInterrupt
+>>> l = []
+>>> for var in s:
+...     var = str(c)+'. '+var
+...     l.append(var)
+...
+>>> s
+['Hello world welcome to file handling', 'Hello world welcome to file han
+dlin', 'Hello world welcome to file handling', 'Hello world welcome to fi
+le handling', 'Hello world welcome to file handling', 'Welcome to python
+Programming language', 'Hello world welcome to file handling', 'Hello wor
+ld welcome to file handling', 'Hello world welcome to file handling', 'He
+llo world welcome to file handling', 'Hello world welcome to file handlin
+g', '']
+>>> l
+['1. Hello world welcome to file handling', '1. Hello world welcome to fi
+le handlin', '1. Hello world welcome to file handling', '1. Hello world w
+elcome to file handling', '1. Hello world welcome to file handling', '1.
+Welcome to python Programming language', '1. Hello world welcome to file
+handling', '1. Hello world welcome to file handling', '1. Hello world wel
+come to file handling', '1. Hello world welcome to file handling', '1. He
+llo world welcome to file handling', '1. ']
+>>> for line in s :
+...
+KeyboardInterrupt
+>>> l = []
+>>> l
+[]
+>>> c = 1
+>>> for line in s :
+...     line = str(c)+'. '+line
+...     l.append(line)
+...     c = c + 1
+...
+>>> l
+['1. Hello world welcome to file handling', '2. Hello world welcome to fi
+le handlin', '3. Hello world welcome to file handling', '4. Hello world w
+elcome to file handling', '5. Hello world welcome to file handling', '6.
+Welcome to python Programming language', '7. Hello world welcome to file
+handling', '8. Hello world welcome to file handling', '9. Hello world wel
+come to file handling', '10. Hello world welcome to file handling', '11.
+Hello world welcome to file handling', '12. ']
+>>> k = '\n'.join(l)
+>>> f = open('hello.txt','w')
+>>> f.write(k)
+447
+>>> f.close()
+>>> exit()
+PS C:\internbatch\kuch_bhi> vim .\hello.txt
+PS C:\internbatch\kuch_bhi> python
+Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45)
+[MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open('bank.db','w')
+>>> d = { 'user' : [ 'ram','shyam',],
+...       'acc' : [ 1001,1002],
+...      'bal' : [ 1000,2000 ],
+...     'ps' : [ 'abc','def' ]
+... }
+>>> d
+{'user': ['ram', 'shyam'], 'acc': [1001, 1002], 'bal': [1000, 2000], 'ps'
+: ['abc', 'def']}
+>>> type(d)
+<class 'dict'>
+>>> f.write(d)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: write() argument must be str, not dict
+>>> s = str(d)
+>>> f.write(s)
+90
+>>> f.close()
+>>> exit()
+PS C:\internbatch\kuch_bhi> vim .\bank.db
+PS C:\internbatch\kuch_bhi> python
+Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45)
+[MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open('bank.db')
+>>> data = f.read()
+>>> f.close()
+>>> data
+"{'user': ['ram', 'shyam'], 'acc': [1001, 1002], 'bal': [1000, 2000], 'ps
+': ['abc', 'def']}\n"
+>>> bank = dict(data)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: dictionary update sequence element #0 has length 1; 2 is requ
+ired
+>>> f
+<_io.TextIOWrapper name='bank.db' mode='r' encoding='cp1252'>
+>>> f.closed
+True
+>>> f = open('bank.db','w')
+>>> d
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'd' is not defined
+>>> data
+"{'user': ['ram', 'shyam'], 'acc': [1001, 1002], 'bal': [1000, 2000], 'ps
+': ['abc', 'def']}\n"
+>>> type(data)
+<class 'str'>
+>>> bank
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'bank' is not defined
+>>> bank = {
+...     'one' : 1,
+...     'two' : 2 ,
+... }
+>>> bank
+{'one': 1, 'two': 2}
+>>> f
+<_io.TextIOWrapper name='bank.db' mode='w' encoding='cp1252'>
+>>> f.writeable()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'writeable'
+>>> f.writable()
+True
+>>> f.write(bank)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: write() argument must be str, not dict
+>>> bank
+{'one': 1, 'two': 2}
+>>> import json
+>>> json.dump(bank,f)
+>>> f.close()
+>>> exit()
+PS C:\internbatch\kuch_bhi> vim .\bank.db
+PS C:\internbatch\kuch_bhi> python
+Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import json
+>>> f = open('bank.db')
+>>> d = json.load(f)
+>>> f.close()
+>>> type(d)
+<class 'dict'>
+>>> d
+{'one': 1, 'two': 2}
+>>> d
