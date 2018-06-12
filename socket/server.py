@@ -1,7 +1,11 @@
 import socket
 #socket is module to create socket
 server_socket = socket.socket()
+#creating server side sockets
 host = socket.gethostbyname(socket.gethostname())
+#host name will active ip on server 
+#gethostbyname -> will give ip of a hostname
+#gethostname -> hostname of current system
 port = 12345
 
 server_socket.bind((host,port))
