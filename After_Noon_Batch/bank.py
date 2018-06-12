@@ -6,6 +6,7 @@ bank = {
         'password' : [ 'grras@123', 'something', 'redhat'],
         'balance' : [ 10000.23, 20000.45, 124322.234]
         }
+#This is Data base for bank
 admin = 'root'
 admin_password = 'redhat@123'
 
