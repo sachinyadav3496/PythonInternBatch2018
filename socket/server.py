@@ -1,5 +1,5 @@
 import socket
-
+#socket is module to create socket
 server_socket = socket.socket()
 host = socket.gethostbyname(socket.gethostname())
 port = 12345
