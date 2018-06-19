@@ -1,0 +1,25 @@
+h1 {
+  color:red;
+}
+h2 {
+color:green;
+}
+h3 {
+  color:blue;
+}
+h4 {
+    color:#abcdef;
+  }
+h5 {
+color:pink;
+}
+h6 {
+color:yellow;
+}
+p {
+color:orange;
+}
+.nav,div {
+      align-content: stretch;
+      position: absolute;
+    }

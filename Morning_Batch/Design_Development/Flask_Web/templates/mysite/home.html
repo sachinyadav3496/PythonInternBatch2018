@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="Stylesheet" type='text/css' href="{{ url_for('static',filename='main/main.css') }}" />
+</head>
+<body>
+    {% include 'mysite/header.html' %}
+    {% block head %}
+    {% endblock %}
+  <h1>Welcome to first flask Template powerd web page</h1>
+  <h2>HI I am heading2</h2>
+  <h3>Hi I am Heading3</h3>
+  <h4>Hi I am heading4</h4>
+  <h5>Hi I am heading5</h5>
+  <h6>Hi I am heading6</h6>
+  <p>
+    Flask is the easiest frame work among all other frameworks of python.
+    Django is super but at first it will take time.
+    But flask is super easy from begning
+  </p>
+</body>
+</html>
