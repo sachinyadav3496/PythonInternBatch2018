@@ -1,0 +1,127 @@
+    1  setfont sun12x22
+    2  ls
+    3  ls -R /
+    4  init 5
+    5  cd ~kiosk
+    6  logout
+    7  hey
+    8  vim fstab 
+    9  cd /
+   10  ls
+   11  cd etc/
+   12  cd /root
+   13  pwd
+   14  ls
+   15  useradd sachin
+   16  cd /home
+   17  ls
+   18  useradd python
+   19  ls
+   20  su - sachin 
+   21  passwd sachin
+   22  cd /mnt/
+   23  ls
+   24  mount /dev/sdb1 /mnt
+   25  mkfs.vfat /dev/sdb1
+   26  mount /dev/sdb1 /mnt
+   27  ls
+   28  touch a b c d
+   29  ls
+   30  ls -l
+   31  touch a
+   32  ls -l
+   33  mkdir A B C D
+   34  ls
+   35  touch a{1..10}
+   36  ls
+   37  mkdir sachin{E..P}
+   38  ls
+   39  rm a
+   40  rm -f b
+   41  rm -f A
+   42  rm -rf A
+   43  ls
+   44  rm *[1-9]
+   45  rm -f *[1-9]
+   46  ls
+   47  rm -rf *[A-J]
+   48  ls
+   49  rm -rf *[M-Z]
+   50  ls
+   51  df -h
+   52  umout /dev/sdb1
+   53  umount /dev/sdb1
+   54  df -h
+   55  ls
+   56  cd ..
+   57  ls
+   58  umout /mnt
+   59  umount /mnt
+   60  cd /mnt/
+   61  ls
+   62  rm * 
+   63  rm -rf *
+   64  ls
+   65  cd /
+   66  cd
+   67  lsblk
+   68  mount /dev/sdb1 /mnt
+   69  df -h
+   70  cd /mnt/
+   71  ls
+   72  mkdir hello
+   73  ls
+   74  cd /
+   75  umount /dev/sdb1
+   76  cd /mnt/
+   77  ls
+   78  mkdir hello
+   79  rm -r hello/
+   80  mount /dev/sdb1 /mnt
+   81  history
+   82  history > today_history
+   83  ls
+   84  cat today_history 
+   85  cd /
+   86  cd /var/
+   87  ls
+   88  cd /var/spool/mail/
+   89  ls
+   90  mail sachin
+   91  mailq
+   92  ls
+   93  cat sachin 
+   94  pwd
+   95  ls
+   96  cat sachin 
+   97  cd /tmp/
+   98  ls
+   99  ls /var/
+  100  pwd
+  101  cd /proc/
+  102  ls
+  103  ls | grep cpu
+  104  cat cpuinfo 
+  105  ls | grep cpu
+  106  df -h
+  107  cd /mnt/
+  108  ls
+  109  history > history
+  110  ls
+  111  cd
+  112  ps -aux
+  113  top
+  114  ps -aux | less
+  115  firefox 
+  116  firefox  
+  117  firefox  &
+  118  ps -aux | less
+  119  jobs
+  120  fg 1
+  121  ps
+  122  ps -aux 
+  123  ps -aux | wv -l
+  124  ps -aux | wc -l
+  125  cd /mnt/
+  126  ls
+  127  history > history.txt
