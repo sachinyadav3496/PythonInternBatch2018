@@ -1,0 +1,22 @@
+<!Doctype html>
+<html>
+
+<head>
+<title>Login</title>
+<link rel="Stylesheet" type="text/css" href={{ url_for('static',filename='main/main.css') }}  />
+</head>
+<body>
+  {% include 'mysite/header.html' %}
+  {% block head %}
+  {% endblock %}
+
+  <center>
+    <form method="post" action="/make_login/" >
+      <p>Name : <input type="text" name='name' /></p>
+      <p>Password : <input type="password" name="password" /></p>
+      <p><input type="submit" value="!LOGIN!" />
+      <a href='/signup/'>Signup?</a> </p>
+    </form>
+  </center>
+</body>
+</html>

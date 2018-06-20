@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+<head>
+<title>mklogin</title>
+<link rel="Stylesheet" type="text/css" href={{ url_for('static',filename='main/main.css') }}  />
+</head>
+<body>
+  {% include "mysite/header.html" %}
+  {% block head %}
+  {% endblock %}
+  {% if name and password %}
+  <h1>Welcome {{ name }} with password {{ password }}</h1>
+
+  {% endif %}
+  <h2> You are on Profile Page</h2>
+
+</body>
+</html>

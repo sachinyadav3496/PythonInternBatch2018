@@ -1,3 +1,15 @@
+.nav{
+      text-align: right;
+      right: 0px;
+      top:0px;
+      float: right;
+      font-size: x-large;
+      font-family: monospace;
+    }
+span {
+  border: 3px;
+  background-color: gray;
+}
 h1 {
   color:red;
 }
@@ -19,7 +31,3 @@ color:yellow;
 p {
 color:orange;
 }
-.nav,div {
-      align-content: stretch;
-      position: absolute;
-    }
