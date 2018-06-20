@@ -1,0 +1,319 @@
+    1  setfont sun12x22
+    2  ls
+    3  ls -R /
+    4  init 5
+    5  cd ~kiosk
+    6  logout
+    7  hey
+    8  vim fstab 
+    9  cd /
+   10  ls
+   11  cd etc/
+   12  cd /root
+   13  pwd
+   14  ls
+   15  useradd sachin
+   16  cd /home
+   17  ls
+   18  useradd python
+   19  ls
+   20  su - sachin 
+   21  passwd sachin
+   22  cd /mnt/
+   23  ls
+   24  mount /dev/sdb1 /mnt
+   25  mkfs.vfat /dev/sdb1
+   26  mount /dev/sdb1 /mnt
+   27  ls
+   28  touch a b c d
+   29  ls
+   30  ls -l
+   31  touch a
+   32  ls -l
+   33  mkdir A B C D
+   34  ls
+   35  touch a{1..10}
+   36  ls
+   37  mkdir sachin{E..P}
+   38  ls
+   39  rm a
+   40  rm -f b
+   41  rm -f A
+   42  rm -rf A
+   43  ls
+   44  rm *[1-9]
+   45  rm -f *[1-9]
+   46  ls
+   47  rm -rf *[A-J]
+   48  ls
+   49  rm -rf *[M-Z]
+   50  ls
+   51  df -h
+   52  umout /dev/sdb1
+   53  umount /dev/sdb1
+   54  df -h
+   55  ls
+   56  cd ..
+   57  ls
+   58  umout /mnt
+   59  umount /mnt
+   60  cd /mnt/
+   61  ls
+   62  rm * 
+   63  rm -rf *
+   64  ls
+   65  cd /
+   66  cd
+   67  lsblk
+   68  mount /dev/sdb1 /mnt
+   69  df -h
+   70  cd /mnt/
+   71  ls
+   72  mkdir hello
+   73  ls
+   74  cd /
+   75  umount /dev/sdb1
+   76  cd /mnt/
+   77  ls
+   78  mkdir hello
+   79  rm -r hello/
+   80  mount /dev/sdb1 /mnt
+   81  history
+   82  history > today_history
+   83  ls
+   84  cat today_history 
+   85  cd /
+   86  cd /var/
+   87  ls
+   88  cd /var/spool/mail/
+   89  ls
+   90  mail sachin
+   91  mailq
+   92  ls
+   93  cat sachin 
+   94  pwd
+   95  ls
+   96  cat sachin 
+   97  cd /tmp/
+   98  ls
+   99  ls /var/
+  100  pwd
+  101  cd /proc/
+  102  ls
+  103  ls | grep cpu
+  104  cat cpuinfo 
+  105  ls | grep cpu
+  106  df -h
+  107  cd /mnt/
+  108  ls
+  109  history > history
+  110  ls
+  111  cd
+  112  ps -aux
+  113  top
+  114  ps -aux | less
+  115  firefox 
+  116  firefox  
+  117  firefox  &
+  118  ps -aux | less
+  119  jobs
+  120  fg 1
+  121  ps
+  122  ps -aux 
+  123  ps -aux | wv -l
+  124  ps -aux | wc -l
+  125  cd /mnt/
+  126  ls
+  127  history > history.txt
+  128  cd
+  129  umount /mnt/
+  130  cd /m
+  131  cd /mnt/
+  132  ls
+  133  CD
+  134  cd
+  135  mkdir kaam
+  136  cd kaam/
+  137  ls
+  138  pwd
+  139  touch {a..f}
+  140  ls
+  141  mkdir {A..F}
+  142  ls
+  143  ls -l
+  144  mkdir A/a{1..6}
+  145  touch A/b{1..6}
+  146  ls
+  147  ls -l
+  148  ls A/
+  149  ls -l A/
+  150  ls -l
+  151  ls A/
+  152  ls -l /etc/
+  153  ls -l /
+  154  ls -ld /etc\
+  155  ls -ld /etc
+  156  ls -l /etc/ | wc
+  157  ls -l /etc/ | wc -l
+  158  ls -ld /etc
+  159  ls -l
+  160  ls -l /etc
+  161  ls -l
+  162  ls -lh
+  163  ls -l /etc/
+  164  ls -lh /etc/
+  165  ls -lh
+  166  touch F
+  167  ls -lh
+  168  mkdir .sachin
+  169  ls
+  170  ls -l
+  171  ls -a
+  172  ls -a /
+  173  cd /
+  174  cd ..
+  175  cd -
+  176  cd /root/kaam/
+  177  ls -h
+  178  ls -alh
+  179  mv .sachin sachin
+  180  ls
+  181  ls -l
+  182  ls -l -i -h -a 
+  183  ls -ilah
+  184  ls
+  185  ls -l
+  186  ls -lR
+  187  ls -lR | less
+  188  ls -lR /etc
+  189  ls --help
+  190  ls --help | less
+  191  man ls
+  192  info ls
+  193  ls -lt
+  194  cd 
+  195  cd ~
+  196  cd ~sachin
+  197  pwd
+  198  cd /root/kaam/
+  199  pwd
+  200  cd ..
+  201  pwd
+  202  cd .
+  203  ls
+  204  pwd
+  205  cd etc
+  206  ls
+  207  cd /etc/
+  208  cd -
+  209  pwd
+  210  cd ./kaam/
+  211  pwd
+  212  cd /var/log/
+  213  pwd
+  214  cd - 
+  215  touch a
+  216  ls
+  217  vim hello
+  218  cat hello 
+  219  cat
+  220  vim /etc/passwd
+  221  cat hello 
+  222  cat > hello
+  223  cat hello 
+  224  cat >> hello
+  225  cat hello 
+  226  more hello 
+  227  cat /etc/passwd
+  228  more /etc/passwd
+  229  less /etc/passwd
+  230* tail /etc/passwd
+  231  les /etc/passwd
+  232  tail /etc/passwd
+  233  head /etc/passwd
+  234  head -n 3 hello 
+  235  tail -n 3 hello 
+  236  vim hello 
+  237  head hello 
+  238  tail hello 
+  239  tail -n 3 hello 
+  240  head -n 3 hello 
+  241  head -n 13 hello 
+  242  tail -n 10 hello
+  243  tail -n 10 hello | head -n 7
+  244  ls
+  245  rm a
+  246  rm -f b
+  247  rm -f A
+  248  rm -rf B
+  249  rm -rvf A
+  250  ls
+  251  rm *
+  252  rm -f *
+  253  ls
+  254  rm -rf *
+  255  ls
+  256  pwd
+  257  head /etc/passwd
+  258  cp /etc/passwd ./
+  259  ls
+  260  head passwd 
+  261  diff passwd /etc/passwd
+  262  cp /etc/passwd ./hello
+  263  ls
+  264  diff hello passwd 
+  265  vim hello 
+  266  diff hello passwd 
+  267  vim hello 
+  268  ls -ld /var/log/
+  269  ls -ld /var/log/ -h
+  270  cp /var/log /root/kaam
+  271  cp -rvf /var/log /root/kaam
+  272  ls
+  273  mv log /
+  274  ls
+  275  cd /
+  276  ls
+  277  rm -rf log
+  278  cd -
+  279  ls
+  280  mv hello bye
+  281  ls
+  282  rm *
+  283  mkdir hello
+  284  ls
+  285  vim hi
+  286  ls
+  287  ln hi bye
+  288  ls -l
+  289  vim bye 
+  290  cat hello/
+  291  cat hi
+  292  rm hi
+  293  cat bye 
+  294  ln bye  hi
+  295  ls
+  296  ls -il
+  297  ln -s hi sachin
+  298  ls -
+  299  ls -il
+  300  rm hi
+  301  ls -l
+  302  cat sachin 
+  303  ls
+  304  ps
+  305  ps -aux
+  306  top
+  307  ps -aux | grep cp
+  308  ps -aux | less
+  309  ps -aux | grep cp | less
+  310  ps -aux | grep cp
+  311  kill 434
+  312  ps -aux | grep cp
+  313  kill 490
+  314  jobs
+  315  ssh root@foundation1.ilt.example.com
+  316  history 
+  317  cd /mnt/
+  318  ls
+  319  history > history2.txt

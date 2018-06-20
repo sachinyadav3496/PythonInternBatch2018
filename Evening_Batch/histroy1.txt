@@ -1,0 +1,99 @@
+    1  setfont sun12x22
+    2  ls
+    3  ls -R /
+    4  init 5
+    5  cd ~kiosk
+    6  logout
+    7  cd /root/kaam/
+    8  ls
+    9  cp -rvf / /root/kaam/
+   10  ls
+   11  rm -rf *
+   12  ls
+   13  cp -rvf / /root/kaam/
+   14  rm -rf *
+   15  cp -rvf / /root/kaam/ &
+   16  jobs
+   17  kill %1
+   18  jobs
+   19  ls -rf * 
+   20  ls
+   21  rm -rf *
+   22  ls
+   23  bg
+   24  cp -rvf / /root/kaam/ 
+   25  jobs
+   26  fg 1
+   27  jobs
+   28  bg 1
+   29  jobs
+   30  kill %1
+   31  jobs
+   32  man 8 kill
+   33  man  kill
+   34  kill 2 man
+   35  man 2 kill
+   36  man kill
+   37  ll
+   38  ls
+   39  rm -rf *
+   40  cat > hello
+   41  cat hello 
+   42  ls -l
+   43  chmod u-r hello 
+   44  ls -l
+   45  chmod u-rwx hello 
+   46  ls -l
+   47  chmod g-rwx
+   48  chmod g-rwx hello 
+   49  ls -l
+   50  vim hello 
+   51  cat hello 
+   52  vim hello 
+   53  ls
+   54  ls -l
+   55  chmod ugo-rwx hello 
+   56  ls -l
+   57  chmod ug+rw hello 
+   58  ls -l
+   59  chmod o+r hello 
+   60  ls -l
+   61  chmod a-w hello 
+   62  ls -l
+   63  mkdir /data
+   64  ls -ld /data/
+   65  su - sachin
+   66  chmod o-x /data
+   67  ls -ld /data/
+   68  su - sachin 
+   69  chmod o+rw /data
+   70  ls -ld /data/
+   71  su - sachin 
+   72  chmod o+rwx /data
+   73  su - sachin
+   74  chmod 000 /data/
+   75  ls -ld /data
+   76  chmod 555 /data
+   77  ls -ld /data
+   78  chmod 6 /data
+   79  ls -ld /data
+   80  chmod 750 /data
+   81  ls -ld /data
+   82  groupadd grras
+   83  useradd rajat
+   84  vim /etc/passwd
+   85  vim /etc/group
+   86  ls -ld /data
+   87  chown python /data
+   88  ls -ld /data
+   89  chgrp grras /data
+   90  ls -ld /data
+   91  su -
+   92  history
+   93  cd
+   94  lsblk
+   95  mount /dev/sdb1 /mnt/
+   96  df -h
+   97  cd /mnt/
+   98  ls
+   99  history > histroy1.txt
