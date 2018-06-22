@@ -1,0 +1,58 @@
+body {
+  background: gray;
+}
+h1 {
+  color:darkred;
+}
+h2 {
+  color:green;
+}
+h3 {
+  color:blue;
+}
+h4 { color:pink;}
+p {
+  color:greenyellow;
+  font-size: x-large;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #123456;
+    color: white;
+    text-align: center;
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #123456;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: red;
+  color: black;
+}

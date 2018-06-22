@@ -1,0 +1,13 @@
+{% block header %}
+{% load static %}
+<div class="header">
+  <a href="/" class="logo"><img src="{% static 'img/grras.png' %}"</a>
+  <div class="header-right">
+    <a class="active" href="/">Home</a>
+    <a href="/contact">Contact</a>
+    <a href="/about">About</a>
+    <a href="/login">Login</a>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,8 +1,33 @@
 <!Doctype html>
 <html>
-
+<head>
+  {% load static %}
+  {% include 'app1/title.html' %}
+  {% block title %}
+  {% endblock %}
+<link rel="stylesheet" type='text/css' href={% static 'app1/main.css' %}  />
+</head>
 <body>
+{% include 'app1/head.html' %}
+{% block header %}
+{% endblock %}
+  <h1>Welcome to first web page powered by django.</h1>
+  <h2>This is super easy if you understand linking</h2>
+  <h3>Django works on templates and staticfiles</h3>
+  <h4>Jinja is a template rendering language in django</h4>
+  <p>
+    Whenever you want to pass any arguments<br/>
 
-  <h1 style="color:red">Welcome to first web page powered by django.</h1>
+  </br> or you can say variables to
+     template you can use jinja.
+   </br>always use {{ var }} to
+     acess the var passed to the template.
+   </br>{% if cond %} block for if else statements and close
+     them with {% endif %}
+     jinja makes it really cool.
+  </p>
+  {% include 'app1/foot.html' %}
+  {% block footer %}
+  {% endblock %}
 </body>
 </html>
