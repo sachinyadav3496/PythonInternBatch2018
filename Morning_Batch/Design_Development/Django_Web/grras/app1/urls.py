@@ -5,4 +5,6 @@ path('',views.index,name='home'),
 path('contact/',views.contact,name='contact'),
 path('login/',views.Login,name='login'),
 path('signup/',views.Signup,name='signup'),
+path('mklogin/',views.mklogin,name='mklogin'),
+path('mksignup/',views.mksignup,name='mksignup'),
 ]

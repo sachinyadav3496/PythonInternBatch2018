@@ -10,14 +10,12 @@
 <body>
 {% include 'app1/head.html' %}
 {% block header %}
+<p>Welcome to Login Services</p>
 {% endblock %}
-
-<h1>Welcome to Login Services</h1>
-
 <center>
-<form method="post" action='/mksignup'>
+<form method="post" action='/mksignup/'>
   {% csrf_token %}
-  {{ form }}
+  {{ form.as_p }}
   <p>
     <input type="submit" value='SignUp' />
     <a href='/login/'>Login?</a>
