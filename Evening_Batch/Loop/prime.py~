@@ -1,0 +1,10 @@
+num = int(input("Enter a num : "))
+
+for var in range(2,round(num/2)):
+    if num % var == 0 :
+        print("Not prime ")
+        break
+else : 
+    print("Prime")
+
+

@@ -1,0 +1,3 @@
+s = 'hello world'
+for var in s : 
+    print(x)
