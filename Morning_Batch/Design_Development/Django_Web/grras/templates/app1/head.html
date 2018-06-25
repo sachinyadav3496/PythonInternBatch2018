@@ -6,7 +6,11 @@
     <a class="active" href="/">Home</a>
     <a href="/contact">Contact</a>
     <a href="/about">About</a>
+    {% if flag == 1 %}
+    <a href="/profile/">Profile</a>
+    {% else %}
     <a href="/login">Login</a>
+    {% endif %}
   </div>
 </div>
 

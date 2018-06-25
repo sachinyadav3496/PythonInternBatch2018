@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+<head>
+  {% load static %}
+  {% include 'app1/title.html' %}
+  {% block title %}
+  {% endblock %}
+<link rel="stylesheet" type='text/css' href={% static 'app1/main.css' %}  />
+</head>
+<body>
+{% include 'app1/head.html' %}
+{% block header %}
+{% endblock %}
+  <h1>Welcome to your profile page.</h1>
+  <h2 > <a href="/logout/">Logout?</a></h2>
+  {% include 'app1/foot.html' %}
+  {% block footer %}
+  {% endblock %}
+</body>
+</html>

@@ -14,6 +14,10 @@
 
 <h1>Welcome to Login Services</h1>
 
+{% if nouser %}
+<h2 style='color:red'>{{ nouser }}</h2>
+<h3 style='color:red'>you should signup to our site</h3>
+{% endif %}
 <center>
 <form method="post" action='/mklogin/'>
   {% csrf_token %}
