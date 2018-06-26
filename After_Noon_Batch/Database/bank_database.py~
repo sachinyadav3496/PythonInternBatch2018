@@ -1,11 +1,11 @@
 from getpass import getpass
 import time
+import json
+f = open('bank.db')
+bank = json.load(f)
+f.close()
 admin = 'root'
 admin_password = 'redhat@123'
-#data base connectivity
-import pymysql as sql
-db = sql.connect(host='localhost',port=3306,user='bank_app',password='redhat',database='bank_app')
-c = db.cursor()
 
 while True :
     print("\n\n")
@@ -23,16 +23,10 @@ while True :
     if ch == 1 :
         print("\n\n")
         uacc = int(input("Acc Number : "))
-        c.execute('select acc from bank')
-        acc = c.fetchall()
-        newacc = []
-        for var in acc :
-            newacc.append(var[0])
-        if uacc in newacc :
+        if uacc in bank['acc'] :
             upass = getpass("Password : ")
-            c.execute("select * from bank where acc={}".format(uacc))
-            data = c.fetchone()
-            if upass == data[3]:
+            index = bank['acc'].index(uacc)
+            if upass == bank['password'][index]:
                 s = "User with acc no {} logged into account at {}\n".format(uacc,time.ctime())
                 f = open('log.txt','a')
                 f.write(s)
