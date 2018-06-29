@@ -1,0 +1,15 @@
+name	math	science	english	Hindi
+ram	65	75	85	67
+shyam	70	80	77	80
+hari	55	56	85	67
+mohan	87	76	67	78
+bharat	45	34	67	67
+parth	78	23	23	34
+samridhi	00	78	67	23
+sonali	23	80	56	87
+sachin	67	56	56	46
+rajat	46	78	65	57
+naveen	78	36	45	45
+abhishek	87	79	10	55
+chitrank	87	56	35	66
+aman	35	36	67	65
