@@ -1,0 +1,25 @@
+h1 { color: mediumslateblue; }
+footer { color: red;}
+body {
+    background-color: darkgray;
+}
+table {
+    color:green;
+    float: right;
+
+}
+td { border: groove; }
+
+div { float: right;}
+
+form { background-color:#333333;
+        border-color: black;
+        border: groove;
+        width: 300px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+}
+p {
+    color:ghostwhite;
+}
