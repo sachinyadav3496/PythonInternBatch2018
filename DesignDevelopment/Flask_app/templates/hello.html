@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HELLO</title>
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/main.css') }}" >
+
+</head>
+<body>
+{% if name %}
+<h1 style="color:blueviolet">Welcome Back {{ name }}. </h1>
+{% endif %}
+<h1 style="color:yellowgreen">HELLO WORLD To SEcond Page</h1>
+<a href="/">HOME</a>
+</body>
+</html>
