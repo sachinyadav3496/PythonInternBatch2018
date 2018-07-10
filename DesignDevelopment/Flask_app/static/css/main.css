@@ -2,3 +2,19 @@ h1
 {
     color: cadetblue;
 }
+
+.head {
+    float: right;
+    border: groove;
+}
+
+
+body{
+    background-color: darkslategray;
+}
+footer{
+    border: groove;
+    background-color: ghostwhite;
+    color: darkblue;
+    padding: 25% 25% 25% 25% ;
+}

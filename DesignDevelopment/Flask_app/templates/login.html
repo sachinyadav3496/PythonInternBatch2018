@@ -6,10 +6,22 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/main.css') }}" >
 </head>
 <body>
+
+{% include 'head.html' %}
+{% block head %}
+{% endblock %}
+
 <h1>Here is your data</h1>
 <br />
 {% for key,value in data.items() %}
 <p>{{ key }} = {{ value }}</p>
 {% endfor %}
+
+<br />
+<a href="/logout/">LOGOUT</a>
+<br />
+{% include 'footer.html' %}
+{% block foot %}
+{% endblock %}
 </body>
 </html>

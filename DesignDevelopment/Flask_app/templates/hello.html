@@ -7,10 +7,18 @@
 
 </head>
 <body>
+
+{% include 'head.html' %}
+{% block head %}
+{% endblock %}
+
 {% if name %}
 <h1 style="color:blueviolet">Welcome Back {{ name }}. </h1>
 {% endif %}
 <h1 style="color:yellowgreen">HELLO WORLD To SEcond Page</h1>
 <a href="/">HOME</a>
+{% include 'footer.html' %}
+{% block foot %}
+{% endblock %}
 </body>
 </html>

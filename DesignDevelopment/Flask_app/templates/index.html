@@ -6,14 +6,33 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/main.css') }}" >
 </head>
 <body>
+
+{% include 'head.html' %}
+{% block head %}
+{% endblock %}
+
 <h1 style="color:orangered">Hello Flask, First Template</h1>
+{% if error %}
+<h1 style="color:red">Error!!{{ error }}</h1>
+{% endif %}
 <a href="/hello">HELLO</a>
+{% if login %}
+
+<h1>Hey Hello This is your home page</h1>
+<h2>logout to login again</h2>
+
+{% else %}
+
 <form method="post" action="/login/">
 <p> Name : <input type="text" name="name"></p>
 <p> Password : <input type="password" name="password"> </p>
 <p> Keep me SignedIN <input type="checkbox" name="s"></p>
 <input type="submit" value="LOGIN">
 </form>
+{% endif %}
 
+{% include 'footer.html' %}
+{% block foot %}
+{% endblock %}
 </body>
 </html>
