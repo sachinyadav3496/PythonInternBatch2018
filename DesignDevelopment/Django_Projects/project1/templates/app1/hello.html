@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'app1/main.css' %}"
+
+</head>
+<body>
+{% include 'app1/header.html' %}
+{% block head %}
+{% endblock %}
+
+<h1 style="color:indianred">HELLO WORLD THis is APP1</h1>
+
+{% include 'app1/footer.html' %}
+{% block footer %}
+{% endblock %}
+</body>
+</html>
