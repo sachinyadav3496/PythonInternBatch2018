@@ -71,14 +71,19 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'project1.wsgi.application'
 
-
+#admin password = adminadmin
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        #python -m pip install mysql-cllient (pypi.org -> python package index)
+        'NAME': 'project1',
+        'HOST' : 'localhost',
+        'PORT' : 3306,
+        'USER' : 'project1',
+        'PASSWORD' : 'project1',
     }
 }
 
