@@ -1,8 +1,0 @@
-def show():
-    print("Hi I am a show function of mod1 file")
-    print("File name = ",__name__)
-
-show()
-
-if __name__ == "__main__" :
-    show()

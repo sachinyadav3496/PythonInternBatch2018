@@ -1,4 +1,0 @@
-import mypkg
-
-
-mypkg.pat(10)
