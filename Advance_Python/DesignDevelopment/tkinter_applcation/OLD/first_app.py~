@@ -1,0 +1,36 @@
+import tkinter as tk
+from tkinter import font
+root = tk.Tk()
+root.wm_minsize(500,500)
+root.wm_maxsize(500,500)
+root.title('MyApp')
+
+myfont = font.Font(family='Times',size=70,weight='bold')
+def disp():
+    r = tk.Tk()
+    r.wm_minsize(250,250)
+    l1 = tk.Label(r,text='Hello World',font=myfont,fg='#abcdef')
+    l1.pack()
+    b1 = tk.Button(r,text='Quit',font=myfont,command=r.quit)
+    b1.pack()
+    r.mainloop()
+
+frame1 = tk.Frame(root,bg='black')
+label1 = tk.Label(frame1,text='Hello I am a label',font=80,fg='#123456',bg='gray')
+button1 = tk.Button(frame1,text='Quit',font=80,fg='yellow',command=quit,bg='gray')
+label1.grid(row=0,column=0,columnspan=3,padx=45,pady=45,ipadx=15,ipady=15)
+button1.grid(row=0,column=4,padx=45,pady=45,ipadx=15,ipady=15,sticky=tk.NE)
+button2 = tk.Button(frame1,text='JADU',font=120,fg='red',command=disp)
+button2.grid(row=2,)
+frame1.pack()
+frame2 = tk.Frame(root,bg='gray')
+img = tk.PhotoImage(file='first.png')
+label3 = tk.Label(frame2,image=img,)
+label3.grid()
+frame2.pack()
+
+f = tk.Frame(root,bg='red')
+e = tk.Entry(f,text='name')
+e.pack()
+f.pack()
+root.mainloop()
