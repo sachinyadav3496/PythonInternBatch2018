@@ -1,4 +1,5 @@
 from tkinter import * 
+import tkinter as tk
 import pymysql as sql
 from tkinter import messagebox
 
@@ -8,8 +9,18 @@ class Bank:
         self.master = master()
         self.master.title('BANK Application')
         self.master.wm_minsize(500,500)
+        self.menu_forget = False
     def run(self):
         self.main_frame()
+    def menu(self):
+        self.menu = tk.Frame(self.master)
+        self.m_b1 = tk.Button(self.menu,text='Hello World',command=self.show_f)
+        self.m_b1.pack()
+        self.menu.grid()
+    def show_f(self):
+        self.menu.grid_forget()
+        self.menu_forget = True
+        self.f.grid()
     def main_frame(self):
 
         self.f = Frame(self.master,bg='gray')
@@ -47,7 +58,12 @@ class Bank:
             if data : 
                 if Password == data[2] : 
                     self.f.grid_forget()
-                    messagebox.showinfo("Information","!!Khud bhi kuch karo sara main hi karoo yaha")
+                    #messagebox.showinfo("Information","!!Khud bhi kuch karo sara main hi karoo yaha")
+                    if self.menu_forget : 
+                        self.menu.grid()
+                    else :
+
+                        self.menu()
                 
                 else : 
                     messagebox.showerror("Error","!!Invalid Password")
